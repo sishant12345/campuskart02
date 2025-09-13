@@ -250,9 +250,13 @@ export const WelcomePage: React.FC = () => {
                   © 2025 CampusKart. Made with ❤️ for college students.
                 </p>
                 <p className="text-gray-400 text-sm mb-1"></p>
-                <p className="text-gray-500 text-sm">
-                  Created & Maintained by <span className="text-blue-400 font-medium">Apoorva singh</span> 
-                </p>
+               <p className="text-gray-500 text-sm">
+  Created & Maintained by{" "}
+  <span className="text-blue-400 font-medium">Apoorva Singh</span>,{" "}
+  <span className="text-blue-400 font-medium">Siddhartha Singh</span> &{" "}
+  <span className="text-blue-400 font-medium">Sishant Verma</span>
+</p>
+
               </div>
             </div>
             
