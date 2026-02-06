@@ -1,5 +1,9 @@
 {
   "framework": "vite",
   "installCommand": "npm install",
-  "buildCommand": "npm run build"
+  "buildCommand": "npm run build",
+  "rewrites": [
+    { "source": "/ads.txt", "destination": "/ads.txt" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
 }
